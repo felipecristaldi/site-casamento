@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casamento Helena & Felipe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('fundo-praia.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      border-radius: 10px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    .presentes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .presente {
+      background-color: #ffffff22;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .formulario {
+      margin-top: 2rem;
+    }
+    form label, form input, form select {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    form input, form select {
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: none;
+    }
+    a {
+      color: #add8e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Helena & Felipe</h1>
+    <p style="text-align:center">Com um amor leve como a brisa do mar,<br>
+    convidamos você para celebrar o nosso casamento à beira da praia:</p>
+
+    <h2>10/01/26 • 17h</h2>
+    <h3>Espaço Reserva Eventos</h3>
+    <p style="text-align:center">
+      <a href="https://www.google.com/maps/place/Espa%C3%A7o+Reserva+Eventos+-+Estr.+do+Pontal,+5400+-+Recreio+dos+Bandeirantes,+Rio+de+Janeiro+-+RJ,+22790-877" target="_blank">
+        Estr. do Pontal, 5400 – Recreio dos Bandeirantes, RJ
+      </a>
+    </p>
+
+    <p>Vamos nos casar e queremos estar rodeados de familiares, amigos mais próximos e boas energias 🤍</p>
+    <p>Estamos muito animados para dividir esse momento único com cada um de vocês, na nossa cidade natal, antes de embarcar em uma nova jornada cheia de amor, descobertas e novas conquistas.</p>
+    <p>Venha de alma leve e com o coração pronto para brindar ao amor!</p>
+
+    <div class="formulario">
+      <h2>Formulário RSVP</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="comparecimento">Irá ao casamento?</label>
+        <select id="comparecimento" name="comparecimento">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="acompanhantes">Quantos acompanhantes?</label>
+        <select id="acompanhantes" name="acompanhantes">
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+
+        <input type="submit" value="Confirmar presença">
+      </form>
+    </div>
+
+    <h2>Nosso Pix</h2>
+    <p style="text-align:center;font-size:1.5rem">21982001690</p>
+
+    <h2>Presentes (experiências divertidas)</h2>
+    <div class="presentes">
+      <div class="presente">Três caipirinhas na praia – R$50</div>
+      <div class="presente">Passeio de pedalinho em lua de mel – R$100</div>
+      <div class="presente">Jantar romântico – R$200</div>
+      <div class="presente">Diária em pousada charmosa – R$350</div>
+      <div class="presente">Passeio de buggy nas dunas – R$500</div>
+      <div class="presente">Hospedagem luxuosa à beira-mar – R$1000</div>
+    </div>
+
+    <h2>Traje: Praia com estilo</h2>
+    <p>Nosso casamento será no clima praiano em um fim de tarde leve e especial. Sugerimos looks confortáveis, frescos e com a sua personalidade!</p>
+    <p>Vestidos leves, fluídos e confortáveis. Bermudas ou calças leves com camisas arrumadas — conforto é essencial.</p>
+    <p>Sintam-se à vontade para curtir o momento com leveza (e estilo)!</p>
+
+    <p style="text-align:center; font-weight:bold; margin-top: 2rem;">Esperamos você nesse grande dia celebrando com a gente 🤍</p>
+  </div>
+</body>
+</html>
